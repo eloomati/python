@@ -154,3 +154,45 @@
 #     print("Jest zero w numerze")
 # else:
 #     print("Nie ma zera w numerze")
+
+# counter = 0
+#
+# while counter <= 30:
+#    print(counter)
+#    counter += 1
+
+#PETLA WHILE ZAD1
+# liczba=int(input("Podaj liczbe: "))
+# licznik_obrotow=1
+#
+# while liczba % 2 != 0 and licznik_obrotow < 10:
+#     liczba=int(input("Podaj inna liczbe: "))
+#     licznik_obrotow += 1
+#
+# if licznik_obrotow == 10:
+#     print("Skonczyly sie proby")
+# else:
+#     print("Brawo, podales dobra liczbe!")
+
+#PETLA WHILE ZAD 2
+# numer_telefonu = input("Podaj numer telefonu: ")
+# czysc_numer = numer_telefonu.replace("-", "")
+# sformatowany_numer = ""
+# index_numeru = 0
+#
+# while index_numeru < len(czysc_numer):
+#     if index_numeru %3 == 0 and index_numeru != 0:
+#         sformatowany_numer += "-"
+#     sformatowany_numer += czysc_numer[index_numeru]
+#     index_numeru += 1
+#
+# print(f"Twoj numer telefonu to: {sformatowany_numer}")
+
+#PETLE WHILE ZAD 3
+# dania=input("Powiedz co lubisz: ")
+# lista_dan=dania.split(", ")
+# index_dania=0
+#
+# while index_dania < len(lista_dan):
+#     print(f"Numer {index_dania} to {lista_dan[index_dania]}")
+#     index_dania += 1
